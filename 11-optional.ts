@@ -3,12 +3,10 @@ function generateError(msg?: string) {
     throw new Error(msg)
 }
 
-generateError("An error occured") // Automatic Semicolon Insertion pitfall - add ; to explicitly tell that this is a function
-// generateError()
+generateError("An error occured");
 
-
+// Optional Values in object properties
 (() => {
-    // Optional Values in object properties
     type User = {
         name: string;
         age: number;
@@ -17,12 +15,12 @@ generateError("An error occured") // Automatic Semicolon Insertion pitfall - add
 
     let user: User = {
         name: 'Elmer',
-        age: 31
+        age: 18
     }
 
     user.name
     user.age
-})
+})()
 
 // Nullish Coalescing `??` operator 
 let input = ''
