@@ -1,10 +1,19 @@
-let age: any = 31
+let age: any = 31;
 
-// ...
+age = '31';
+console.log(age, typeof age);
 
-age = '31'
-age = true
-age = {}
-age = []
+age = true;
+console.log(age, typeof age);
 
-console.log(typeof age)
+age = {};
+console.log(age, typeof age);
+
+age = [];
+console.log(age, typeof age);
+
+age = null;
+console.log(age, typeof age);
+
+age = undefined;
+console.log(age, typeof age);
