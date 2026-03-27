@@ -20,6 +20,11 @@ c = undefined
 let d: undefined | string
 
 d = undefined
-d = "Hi"
+d = "world, hello!"
 // d = null
 // d = 10
+
+console.log(a)
+console.log(b)
+console.log(c)
+console.log(d)
